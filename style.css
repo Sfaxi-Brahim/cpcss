@@ -1,0 +1,124 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.menu {
+    display: flex;
+    margin-top: 25px;
+}
+#about_me {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+}
+.img_me img{
+    width: 250px;
+    border-radius: 30%;
+}
+.resume_me{
+    padding: 20px;
+}
+h1 span{
+    font-size: 24PX;
+    color: #7129e7;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li {
+    font-size: 18px;
+    margin: 0 5px;
+}
+.menu{
+    list-style-type: none;
+
+}
+.experience{
+    display: flex;
+    margin: 30px 15%;
+}
+#resume, #work{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+#resume h3, #work h3{
+    text-transform: uppercase;
+    color: crimson;
+}
+footer p{
+    text-align: center;
+}
+form {
+    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    width: 550px;
+    height: 450px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: #09C;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  }
+  input {
+    width: 375px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  }
+  textarea#feedback {
+    width: 375px;
+    height: 110px;
+  }
+  button {
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #09C;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 30px;
+    border-radius: 15px;
+    border: 1p solid #999;
+  }
+  
+  button:hover {
+    background: #fff;
+    color: #09C;
+  }
+  textarea:focus, input:focus {
+    border: 1px solid #09C;
+  }
+  #contact{
+    margin: 0 15%;
+  }
+  #contact h3{
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: crimson;
+    margin-bottom: 30px;
+  }
+  .audio{
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+  }
